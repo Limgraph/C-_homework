@@ -1,0 +1,11 @@
+задача_2
+https://github.com/Limgraph/C-_homework/commit/754f7d8e7f3420ae64e6ef2b50e3879f42523306
+
+задача 4
+https://github.com/Limgraph/C-_homework/commit/4a94cb58d8273b3f7862a256f76b273526fe529e
+
+задача 6 
+https://github.com/Limgraph/C-_homework/commit/6e01d32c65e779e9c7586f0988598989d29f4a8d
+
+задача 8
+https://github.com/Limgraph/C-_homework/commit/3ba0a419ccf92a59080636f7d5f9fffe4c999a92

@@ -3,3 +3,6 @@ https://github.com/Limgraph/C-_homework/blob/main/home_work_2/task_10/Program.cs
 
 задача_13
 https://github.com/Limgraph/C-_homework/blob/main/home_work_2/task_13/Program.cs
+
+задача_15
+https://github.com/Limgraph/C-_homework/blob/main/home_work_2/task_15/Program.cs

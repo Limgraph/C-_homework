@@ -1,0 +1,8 @@
+Задача 19
+https://github.com/Limgraph/C-_homework/blob/main/home_work_3/task_19/Program.cs
+
+Задача 21
+https://github.com/Limgraph/C-_homework/blob/main/home_work_3/task_21/Program.cs
+
+Задача 23
+https://github.com/Limgraph/C-_homework/blob/main/home_work_3/task_23/Program.cs

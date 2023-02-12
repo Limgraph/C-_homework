@@ -1,0 +1,8 @@
+Задача 1
+https://github.com/Limgraph/C-_homework/blob/main/home_work_4/task_1/Program.cs
+
+Задача 2
+https://github.com/Limgraph/C-_homework/blob/main/home_work_4/task_2/Program.cs
+
+Задача 3
+https://github.com/Limgraph/C-_homework/blob/main/home_work_4/task_3/Program.cs

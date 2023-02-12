@@ -25,7 +25,7 @@ int GetEven(int[] array)
     return count_even;
 }
 
-int[] array = GetArray(5, 100, 999);
+int[] array = GetArray(5, -100, 100);
 Console.WriteLine(String.Join(", ", array));
 
 int even = GetEven(array);

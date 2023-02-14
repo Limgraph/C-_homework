@@ -33,7 +33,7 @@ double GetDiff(double[] array)
     return diff;
 }
 
-double[] array = GetArray(5, 0, 100);//если второй аргумент задать отрицательный то программа читает унарный оператор "-" как оператор смены знака в 32 строчке, в чём причина я понять не могу
+double[] array = GetArray(5, -100, 100);
 Console.WriteLine(String.Join(" | ", array));
 
 double difference = GetDiff(array);

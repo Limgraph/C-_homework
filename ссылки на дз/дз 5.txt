@@ -1,0 +1,11 @@
+Задача 34
+https://github.com/Limgraph/C-_homework/blob/main/home_work_5/task_34/Program.cs
+
+Задача 36
+https://github.com/Limgraph/C-_homework/blob/main/home_work_5/task_36/Program.cs
+
+Задача 38
+https://github.com/Limgraph/C-_homework/blob/main/home_work_5/task_38/Program.cs
+
+Задача со звёздочкой
+https://github.com/Limgraph/C-_homework/blob/main/home_work_5/task_star/Program.cs

@@ -1,0 +1,7 @@
+Задача 34
+https://github.com/Limgraph/C-_homework/blob/main/home_work_6/task_41/Program.cs
+
+Задача 43
+https://github.com/Limgraph/C-_homework/blob/main/home_work_6/task_43/Program.cs
+здесь я нашёл ошибку в 43 строчке кода, изначальный вариант закомментирован. Так работает правильно.
+

@@ -27,7 +27,7 @@ double Prompt(string message)
     return result;
 }
 
-double[] InputLineData(int numberOfLine)
+double[] InputLineData(int numberOfLine)//
 {
     double[] lineData = new double[2];
     lineData[COEFFICIENT] = Prompt($"Введите коэффициент для {numberOfLine} прямой >");
@@ -39,9 +39,9 @@ double[] FindCoords(double[] lineData1, double[] lineData2)
 {
     double[] coord = new double[2];
     coord[X_CORD] = (lineData1[CONSTANT] - lineData2[CONSTANT]) / (lineData2[COEFFICIENT] - lineData1[COEFFICIENT]);
-    //Console.WriteLine($"({lineData1[CONSTANT]} - {lineData2[CONSTANT]}) / ({lineData2[COFFICIENT]} - {lineData1[COFFICIENT]})");
+    Console.WriteLine($"({lineData1[CONSTANT]} - {lineData2[CONSTANT]}) / ({lineData2[COEFFICIENT]} - {lineData1[COEFFICIENT]})");
     coord[Y_CORD] = lineData1[COEFFICIENT] * coord[X_CORD] + lineData1[CONSTANT];// изначально было так coord[Y_CORD] = lineData1[CONSTANT] * coord[X_CORD] + lineData1[CONSTANT]
-    //Console.WriteLine($"{lineData1[COFFICIENT]} * {coord[X_CORD]} + {lineData1[CONSTANT]}");
+    //Console.WriteLine($"{lineData1[COEFFICIENT]} * {coord[X_CORD]} + {lineData1[CONSTANT]}");
     return coord;
 }
 

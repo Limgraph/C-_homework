@@ -33,31 +33,29 @@ void PrintArray(int[,] inArray)
     }
 }
 
-int GetElement(int[,] array)
+int[] GetCoord(int pozition)
 {
-    Console.WriteLine("Введите позицию элемента: ");
-    int pozition = int.Parse(Console.ReadLine()!);
     int[] arr = new int[2];
-    if (pozition < 100 && pozition > 0)
-    {
-        arr[0] = pozition / 10;
-        arr[1] = pozition % 10;
-        pozition = array[arr[0], arr[1]];
-    }
-    else
-    {
-        Console.WriteLine("Такого элемента не существует!");
-    }
-
-    return pozition;
+    arr[0] = pozition / 10;
+    arr[1] = pozition % 10;
+    return arr;
 }
 
-Console.Write("Введите количество строк: ");
-int row = int.Parse(Console.ReadLine()!);
-Console.Write("Введите количество столбцов: ");
-int col = int.Parse(Console.ReadLine()!);
+void SearchElement(int[] coord, int[,] mass)
+{
+    if (coord[0] < mass.GetLength(0) && coord[1] < mass.GetLength(1))
+        Console.WriteLine($"{mass[coord[0], coord[1]]}");
+        else Console.WriteLine("Такого числа не существует!");
+}
+
+int row = 4;
+int col = 4;
 
 int[,] array2D = GetArray(row, col, 1, 10);
 PrintArray(array2D);
-int poz = GetElement(array2D);
-Console.WriteLine(poz);
+
+Console.WriteLine("Введите позицию элемента: ");
+int pozition = int.Parse(Console.ReadLine()!);
+
+int[] poz = GetCoord(pozition);
+SearchElement(poz, array2D);

@@ -1,0 +1,8 @@
+Задача 47
+https://github.com/Limgraph/C-_homework/blob/main/home_work_7/task_47/Program.cs
+
+Задача 50
+https://github.com/Limgraph/C-_homework/blob/main/home_work_7/task_50/Program.cs
+
+Задача 52
+https://github.com/Limgraph/C-_homework/blob/main/home_work_7/task_52/Program.cs

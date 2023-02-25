@@ -35,7 +35,7 @@ void PrintArray(int[,] inArray)
     }
 }
 
-int[,] Multiplication(int[,] array1, int[,] array2)
+int[,] MultiMatrix(int[,] array1, int[,] array2)
 {
     int[,] array3 = new int[array1.GetLength(0), array2.GetLength(1)];
     for (int i = 0; i < array1.GetLength(0); i++)
@@ -67,7 +67,7 @@ if (array2D_1.GetLength(1) != array2D_2.GetLength(0))
     Console.WriteLine("Матрицы нельзя перемножить");
 else
 {
-    int[,] array2D_3 = Multiplication(array2D_1, array2D_2);
+    int[,] array2D_3 = MultiMatrix(array2D_1, array2D_2);
     PrintArray(array2D_3);
 }
 

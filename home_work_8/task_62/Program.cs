@@ -51,8 +51,8 @@ int[,] FillArray(int[,] inArray, int size)
     return inArray;
 }
 
-// Console.WriteLine("Введите количество цифр в стороне массива: ");
-int size = 7; //int.Parse(Console.ReadLine());
+Console.WriteLine("Введите количество цифр в стороне массива: ");
+int size = int.Parse(Console.ReadLine());
 int[,] array2D = new int[size, size];
 int[,] fillArray = FillArray(array2D, size);
 PrintArray(fillArray);
